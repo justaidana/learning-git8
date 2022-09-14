@@ -1,0 +1,71 @@
+не работающий верно навбар с иконками
+<div class="col-3"></div>
+          <div class="col-6">
+            <div class="row pb-2">
+              <div class="col-2 mt-4 position-relative icon-responsive">
+                <i class="sprite sprite-analytics_icon"></i> <div class="shadow"><i class="sprite sprite-shadow"></i></div>
+                </div>
+              <div class="col-2 mt-4">
+                <div class="icon-responsive">
+                  <i class="sprite sprite-people_icon"></i>
+                  <div class="shadow"><i class="sprite sprite-shadow"></i></div>
+                </div>
+                </div>
+              <div class="col-2 mt-4">
+                <div class="icon-responsive">
+                  <i class="sprite sprite-messages_icon"><div class="shadow"><i class="sprite sprite-shadow"></i></div></i>
+                </div>
+              </div>
+              <div class="col-2 mt-4 icon-responsive"><i class="sprite sprite-price_icon"></i><div class="shadow"><i class="sprite sprite-shadow"></i></div></div>
+              <div class="col-2 mt-4 icon-responsive"><i class="sprite sprite-page_icon"></i><div class="shadow"><i class="sprite sprite-shadow"></i></div></div>
+              <div class="col-2 mt-4 icon-responsive"><i class="sprite sprite-statistics_icon"></i><div class="shadow"><i class="sprite sprite-shadow"></i></div></div>
+            </div>
+          </div>
+          <div class="col-3 text-center"></div>
+          <div class="marker"><i class="sprite sprite-marker_icon"></i></div>
+
+CSS
+.second-navbar-bg1 {
+    background-color: #134670;
+    background-image: url(/assets/menu_pattern.png);
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    background-position: 0px 75%;
+
+}
+
+.marker {
+    position:absolute;
+    left: 25.8%;
+    bottom: 0%;
+}
+
+.shadow {
+    position: absolute;
+    bottom: 5%;
+}
+
+Dashboard code html
+
+        <div class="row dashboard-row rounded">
+          <div class="col-md-6 col-lg-8 col-sm-6 text-white pt-3">
+            <div class="h4">Dashboard</div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-6">
+            <!-- <div class="container-fluid buttonIn"> -->
+              <form class="search-form mt-1 position-relative">
+                <input
+                  class="searchInput"
+                  type="text"
+                  aria-label="Search"
+                /> <a href="#"><img class="search-icon" href="#" src="/icons/images/search_icon_blue.png"> </a>
+              </form>
+            <!-- </div> -->
+          </div>
+        </div>
+Dashboard code css
+
+.dashboard-row {
+    background-color: #33cc66;
+    height: 60px;
+}

@@ -1,0 +1,64 @@
+body {
+    background-image: url(/assets/welcomepage.jpg);
+    padding: 20px;
+}
+
+header {
+    
+}
+.welcome {
+    width: 80%;
+    background-color: #4B9CD3;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white;
+  }
+
+  h2 {
+    color: white;
+  }
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+.bottom-line {
+    margin-top: 100px;
+}
+/*footer*/
+
+  footer {
+    font-size: 14px;
+    
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }

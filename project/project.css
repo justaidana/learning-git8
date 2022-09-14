@@ -1,0 +1,470 @@
+body {
+    font-family: Proxima Nova, sans-serif;
+}
+.main-content {
+    /* width: 149vh;
+    margin: 0 auto; */
+    border-color: #f9f9f9;
+}
+
+.my-col {
+    background-color: darkgrey;
+    border: 2px solid brown;
+}
+
+.my-row {
+    border: 2px solid black;
+}
+
+.my-height {
+    height: 50vh;
+}
+.row1color {
+    background-color: #2190e8;
+
+}
+
+.dashboard-row {
+    background-color: #33cc66;
+}
+.search-input {
+    height: 33px;
+    border: none;
+}
+.badge {
+    top: 10%;
+}
+.announcements-text {
+    color: #fe7f13; 
+    font-size: 11px;
+    font-weight: 600;
+}
+.sociisText {
+    font-size: 12px;
+}
+.text-hover {
+    color:#114570;
+
+}
+.text-hover:hover {
+    color: grey;
+}
+
+.tasksRow {
+    height: 8vh;
+    color: #2498f3;
+    font-weight:600;
+    font-size: 2.2vh;
+}
+.analyticsRow {
+    color: #2498f3;
+}
+.activityRow {
+    font-size: 1.3vh;
+}
+.dashboardImg {
+    width: 65vh;
+    height: 25vh;
+}
+
+.channelsImg {
+    width: 17vh;
+    height: 15vh;
+}
+.recRow {
+    color: #2498f3;
+    font-weight:600;
+    font-size: 2.5vh;
+}
+
+.greyText {
+    font-size: 1.6vh;
+}
+.facebookIcon {
+    background-color: #114570;
+    border: solid #114570;
+    border-width: 0px 7px;
+    border-radius: 7px;
+}
+.twitterIcon {
+    background-color: #2298f4;
+    border: solid #2298f4;
+    border-width: 0px 7px;
+    border-radius: 7px;
+}
+.foursquareIcon {
+    background-color: #3a599b;
+    border: solid #3a599b;
+    border-width: 0px 7px;
+    border-radius: 7px;
+}
+.googleIcon {
+    background-color: #31cc66;
+    border: solid #31cc66;
+    border-width: 0px 7px;
+    border-radius: 7px;
+}
+
+/* this is customized checkbox css code https://youtu.be/YyLzwR-iXtI legend */
+.form-check-inline label {
+    cursor: pointer;
+    display: flex;
+}
+.form-check-inline input[type="checkbox"] {
+    cursor: pointer;
+    opacity: 0;
+}
+.form-check-inline label::before {
+    content: url(/icons/images/box_icon.png);
+    /* width: 1.3em;
+    height: 1.3em;
+    background-color: #e0e0e0; */
+    border: 3px solid white;
+}
+.form-check-inline input[type="checkbox"]:checked + label::before {
+    content: url(/assets/checked-icon.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+/* this is end of customized checkbox css code */
+/* this is start of the contacts row */
+.avatarIcon {
+    position: absolute;
+    left: 35%;
+    bottom: 81%;
+    overflow: visible;
+}
+
+.contactDashboardImg {
+    width: 25vh;
+    height: 20vh;
+}
+.textContacts {
+    background-color: #2394ee;
+    border-width: 0px 20px;
+}
+.leftribbon {
+    position:absolute;
+    right: 100%;
+    bottom: 60%;
+}
+.rightribbon {
+    position:absolute;
+    left: 100%;
+    bottom: 60%;
+}
+/* this is end of the contacts row */
+/* this is start of the did you know row */
+.didYouKnowContainer {
+    background-color: #2498f4;
+}
+.didYouKnowText {
+    font-size: 13px;
+    color: white;
+}
+.left-circle-icon {
+    top: 30%;
+}
+.left-arrow-icon {
+    top: 39%;
+    cursor: pointer;
+}
+.right-arrow-icon {
+    top: 39%;
+    left: 98%;
+    z-index: 1;
+    cursor: pointer;
+}
+.right-circle-icon {
+    top: 30%;
+    left: 96%;
+    z-index: 0;
+} 
+/* this is end of the did you know row */
+/* this is second nav bar */
+.navbar-background {
+    background-color: #134670;
+    background-image: url(/assets/menu_pattern.png);
+    height: 15vh;
+}
+.shadow {
+    position: absolute;
+}
+.marker {
+    position:absolute;
+}
+.search-icon {
+    position: absolute;
+    left: 61%;
+    top: 2.5%;
+    height: 4vh;
+    border-right: #25994e;
+}
+
+.images-row {
+    background-color: #2498f4;
+}
+.overlay {
+position: absolute;
+top: 0%;
+}
+.image-text {
+    background-color: #31cc66;
+    top: 40%;
+    left: 10%;
+    font-size: 13px;
+    padding: 5px 10px 5px 10px;
+}
+.footer-row {
+    background-color: #f3f3f3;
+    box-shadow:  0 0 10px gray;
+    font-size: 12px;
+}
+.text-blue {
+    color: #2498f2;
+    font-weight: 700;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+/* this is for hoverable icons */
+.hoverRaw1:hover .icon-grey-hover {
+    opacity:1;
+}
+.hoverRaw1:hover .icon-blue-hover {
+    opacity:0;
+}
+.hoverRaw1:hover .grey-circle-hover {
+    opacity: 1;
+}
+.hoverRaw1:hover .green-circle-hover {
+    opacity: 0;
+}
+.hoverRaw2:hover .grey-circle-hover {
+    opacity: 1;
+}
+.hoverRaw2:hover .green-circle-hover {
+    opacity: 0;
+}
+.hoverRaw2:hover .icon-grey-hover {
+    opacity:1;
+}
+.hoverRaw2:hover .icon-blue-hover {
+    opacity:0;
+}
+.hoverRaw3:hover .grey-circle-hover {
+    opacity: 1;
+}
+.hoverRaw3:hover .green-circle-hover {
+    opacity: 0;
+}
+.hoverRaw3:hover .icon-grey-hover {
+    opacity:1;
+}
+.hoverRaw3:hover .icon-blue-hover {
+    opacity:0;
+}
+.hoverRaw4:hover .grey-circle-hover {
+    opacity: 1;
+}
+.hoverRaw4:hover .green-circle-hover {
+    opacity: 0;
+}
+.hoverRaw4:hover .icon-grey-hover {
+    opacity:1;
+}
+.hoverRaw4:hover .icon-blue-hover {
+    opacity:0;
+}
+.icon-grey-hover {
+    opacity: 0;
+    left: -0.2%;
+    top: 14%;
+}
+.grey-circle-hover {
+    top: 0%;
+    opacity: 0;
+}
+/* this is end for hoverable icons */
+
+
+/* this is start for hoverable navbar  */
+.text-hover1 {
+    color: white;
+}
+.text-hover1:hover {
+    color: black;
+}
+.icon-black {
+    top: 10%;
+    left: 13%;
+    opacity: 0;
+}
+.icon-black2 {
+    left: 6%;
+    top: 15%;
+    opacity: 0;
+}
+.navbar-icon:hover .icon-black {
+    opacity: 1;
+}
+.navbar-icon:hover .icon-grey {
+    opacity: 0;
+}
+.navbar-icon2:hover .icon-black2 {
+    opacity: 1;
+}
+.navbar-icon2:hover .icon-grey {
+    opacity: 0;
+}
+
+
+/* this is start for hoverable navbar1 */
+.img-green {
+    opacity: 0;
+    left: 10%;
+    top: 3%;
+}
+.nav-icon1:hover .img-blue {
+    opacity: 0;
+}
+.nav-icon1:hover .img-green {
+    opacity: 1;
+}
+.nav-icon2:hover .img-blue {
+    opacity: 0;
+}
+.nav-icon2:hover .img-green {
+    opacity: 1;
+}
+.nav-icon3:hover .img-blue {
+    opacity: 0;
+}
+.nav-icon3:hover .img-green {
+    opacity: 1;
+}
+.nav-icon4:hover .img-blue {
+    opacity: 0;
+}
+.nav-icon4:hover .img-green {
+    opacity: 1;
+}
+.nav-icon5:hover .img-blue {
+    opacity: 0;
+}
+.nav-icon5:hover .img-green {
+    opacity: 1;
+}
+.nav-icon6:hover .img-blue {
+    opacity: 0;
+}
+.nav-icon6:hover .img-green {
+    opacity: 1;
+}
+/* this is end of hoverable navbar1 */
+
+/* footer hover  */
+.footer-text-hover:hover {
+    color:#2394ee; 
+}
+.text-blue:hover {
+    color:#114570;
+}
+.footer-icon1:hover .icon-inactive {
+    opacity: 0;
+}
+.icon-active{
+    opacity: 0;
+}
+.footer-icon1:hover .icon-active {
+    opacity: 1;
+}
+.footer-icon2:hover .icon-inactive {
+    opacity: 0;
+}
+.footer-icon2:hover .icon-active {
+    opacity: 1;
+}
+.footer-icon3:hover .icon-inactive {
+    opacity: 0;
+}
+.footer-icon3:hover .icon-active {
+    opacity: 1;
+}
+.footer-icon4:hover .icon-inactive {
+    opacity: 0;
+}
+.footer-icon4:hover .icon-active {
+    opacity: 1;
+}
+/* image hover size change */
+.img1-hover:hover .img-1 {
+    height: 200px;
+}
+.img2-hover:hover .img-2 {
+    height: 195px;
+}.img3-hover:hover .img-3 {
+    height: 195px;
+}
+.settings-icon {
+    cursor: pointer;
+}
+
+/* custmozed dropdown button credit goes to https://www.youtube.com/watch?v=bXYWCuS_c8c */
+.date select {
+    appearance: none;
+    width: 100%;
+    max-width: 130px;
+    font-size: 12px;
+}
+
+.date::after {
+    content: url(/icons/images/dropdown-icon.png)
+}
+.date {
+    position: relative;
+}
+.date::after {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date, .date::after, .date select {
+    box-sizing: border-box;
+    height: 20px;
+}
+
+/* hoverable articles */
+.article1:hover .articletext {
+    color: gray;
+}
+.article2:hover .articletext {
+    color: gray;
+}
+.article3:hover .articletext {
+    color: gray;
+}
+.article4:hover .articletext {
+    color: gray;
+}
+/* font style: proxima nova sans serif
+font-size: 14;
+transotion: color 0.2 ?  what is this??
+a:hover 
+and then 
+a: active
+
+Если указать размер колонки как мд-4 то при уменьшении она возьмет размер 12, а если указать просто кол-4 без размера то она просто уменьшится, сожмется.
+
+
+search знак может находится сбоку инпута без левой границы, это оптическая иллюзия 
+window resizer. 
+ */

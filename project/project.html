@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1: CSS Extreme</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="/project/project.css" rel="stylesheet" type="text/css" />
+    <link href="/project/spritesheet.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- first nav bar -->
+      <div class="row row1color">
+        <div class="col-8 text-end"><a href="#" class="text-hover1" style="text-decoration: none">MINI of Raleigh</a></div>
+        <div class="col-1 text-end border-start border-end border-dark navbar-icon position-relative" style="--bs-border-opacity: 0.2">
+          <span>
+            <i class="sprite sprite-Help_icon icon-grey"></i>
+            <i class="sprite sprite-icon_help_black position-absolute icon-black"></i>
+          </span>
+        </div>
+        <div class="col-2 text-end navbar-icon2 position-relative">
+          <span>
+            <i class="sprite sprite-settings_icon icon-grey"></i>
+            <i class="sprite sprite-icon_settings_black position-absolute icon-black2"></i>
+          </span>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+    <div class="container-fluid"> <!-- this should have a background image of diagonal lines -->
+      <!-- second nav bar -->
+      <div class="row navbar-background">
+        <div class="col-lg-3 col-md-2 col-sm-0"></div>
+        <div class="col-lg-6 col-md-8 col-sm-12">
+          <div class="row pt-3">
+            <div class="col-2 position-relative nav-icon1">
+              <img src="/icons/images/analytics_icon.png" class="img-fluid img-blue">
+              <img src="/icons/images/analytics_icon_green.png" class="img-fluid position-absolute img-green">
+              <div class="shadow">
+                <i class="sprite sprite-shadow"></i>
+              </div>
+              <div class="marker pt-2 ps-3">
+                <i class="sprite sprite-marker_icon"></i>
+              </div>
+            </div>
+            <div class="col-2 position-relative nav-icon2">
+              <img src="/icons/images/people_icon.png" class="img-fluid img-blue">
+              <img src="/icons/images/people_icon_green.png" class="img-fluid position-absolute img-green">
+              <div class="shadow">
+                <i class="sprite sprite-shadow"></i>
+              </div>
+            </div>
+            <div class="col-2 position-relative nav-icon3">
+              <img src="/icons/images/messages_icon.png" class="img-fluid">
+              <img src="/icons/images/messages_icon_green.png" class="img-fluid position-absolute img-green">
+              <div class="shadow">
+                <i class="sprite sprite-shadow"></i>
+              </div>
+            </div>
+            <div class="col-2 position-relative nav-icon4">
+              <img src="/icons/images/price_icon.png" class="img-fluid img-blue">
+              <img src="/icons/images/price_icon_green.png" class="img-fluid position-absolute img-green">
+              <div class="shadow">
+                <i class="sprite sprite-shadow"></i>
+              </div>
+            </div>
+            <div class="col-2 position-relative nav-icon5">
+              <img src="/icons/images/page_icon.png" class="img-fluid img-blue">
+              <img src="/icons/images/file_icon_green.png" class="img-fluid position-absolute img-green">
+              <div class="shadow">
+                <i class="sprite sprite-shadow"></i>
+              </div>
+            </div>
+            <div class="col-2 position-relative nav-icon6">
+              <img src="/icons/images/statistics_icon.png" class="img-fluid img-blue">
+              <img src="/icons/images/statistics_icon_green.png" class="img-fluid position-absolute img-green">
+              <div class="shadow">
+                <i class="sprite sprite-shadow"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-2 col-sm-0"></div>
+          
+      </div>
+    </div>
+      <div class="container mt-3" style="max-width: 900px; margin: 0 auto;">
+        <div class="row dashboard-row rounded">
+          <div class="col-md-6 col-lg-8 col-sm-8 text-white pt-2 pb-2">
+            <h3>Dashboard</h3>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-4 pt-2 pb-2">
+            <!-- <div class="container-fluid buttonIn"> -->
+              <form class="search-form mt-1 position-relative">
+              <input type="text" class="position-relative search-input"></input>
+               <a href="#" class="position-absolute"><img src="/icons/images/search_icon_blue.png" class="seacrh-button"></a>
+              </form>
+            <!-- </div> -->
+          </div>
+        </div>
+    </div>
+    <div class="container main-content border rounded-top mt-4" style="max-width: 900px; margin: 0 auto;"> <!-- this is main content -->
+      <div class="container bg-white mt-4 ps-0 pe-0">
+        <div class="container">
+          <div class="row ms-0 me-0 border-top border-start border-end">
+            <div
+              class="col-lg-2 col-md-6 col-sm-6 announcements-text pt-1 border-end"
+              style="--bs-border-opacity: 0.2"
+            > <p class="announcements-text">ANNOUNCEMENTS</p>
+              
+            </div>
+            <div
+              class="col-lg-9 col-md-6 col-sm-6 sociisText ps-4 pt-1 border-end"
+              style="--bs-border-opacity: 0.2"
+            >
+              Sociis natoque penatibus et magnis dis parturient montes, nascetur
+              ridiculus mus. Vivamus sagittis lacus
+            </div>
+            <div
+              class="col-lg-1 col-md-6 col-sm-6"
+              style="--bs-border-opacity: 0.2"
+            >
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+              <div class="btn-group me-2 mt-2" role="group" aria-label="First group">
+                <a href="#"><i class="sprite sprite-leftarrow_icon"></i><a>
+                <a href="#"><i class="sprite sprite-rightarrow_icon"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <!-- this is longer row -->
+          <div class="col-lg-4 col-md-5 align-self-start" style="--bs-border-opacity: 0.2">
+            <div class="row tasksRow border-top "> 
+              <div class="col-10"><h2>Tasks</h2></div>
+              <div class="col-2 pt-1 pe-0"><i class="sprite sprite-greysettiings_icon settings-icon"></i></div>
+            </div>
+            <div class="row tasksRow hoverRaw1 pt-2 border-bottom border-dark pb-2 pe-2 text-hover" style="--bs-border-opacity: 0.2">
+              <div class="col-2 position-relative ps-3">
+                <i class="sprite sprite-green_circle_icon green-circle-hover"></i>
+                <i class="sprite sprite-grey_circle_icon grey-circle-hover position-absolute"></i>
+                <span class="badge position-absolute">1</span>
+              </div>
+              <div class="col-8">Welcome Contacts</div>
+              <div class="col-2 pt-1 position-relative ps-0 pe-0 border border-2">
+                <i class="sprite sprite-customers_icon icon-blue-hover"></i>
+                <i class="sprite sprite-greycustomer_icon position-absolute icon-grey-hover"></i>
+                <span class="badge position-absolute top-10 start-50 text-secondary">32</span>
+              </div>
+            </div>
+            <div class="row tasksRow hoverRaw2 pt-2 pb-2 pe-2 text-hover" style="--bs-border-opacity: 0.2">
+              <div class="col-2 ps-3 position-relative">
+              <i class="sprite sprite-green_circle_icon green-circle-hover"></i>
+              <i class="sprite sprite-grey_circle_icon grey-circle-hover position-absolute"></i>
+              <span class="badge position-absolute">2</span>
+              
+            </div>
+              <div class="col-8">Provide Responses</div>
+            <div class="col-2 pt-1 ps-1 border border-2 border-rounded position-relative">
+              <i class="sprite sprite-customers_icon icon-blue-hover"></i>
+              <i class="sprite sprite-greycustomer_icon position-absolute icon-grey-hover"></i>
+              <span class="badge position-absolute top-10 start-50 text-secondary">36</span>
+            </div>
+          </div>
+            <div class="row tasksRow hoverRaw3 pt-2 border-top pb-2 pe-2 text-hover" style="--bs-border-opacity: 0.2">
+              <div class="col-2 position-relative ps-3">
+                <i class="sprite sprite-green_circle_icon green-circle-hover"></i>
+                <i class="sprite sprite-grey_circle_icon grey-circle-hover position-absolute"></i>
+                  <span class="badge position-absolute">3</span>
+              </div>
+              <div class="col-8">Review Activity</div>
+              <div class="col-2 pt-1 position-relative ps-1 border border-2">
+                <i class="sprite sprite-customers_icon icon-blue-hover"></i>
+                <i class="sprite sprite-greycustomer_icon position-absolute icon-grey-hover"></i>
+                <span class="badge position-absolute top-10 start-50 text-secondary">36</span>
+              </div>
+            </div>
+            <div class="row tasksRow hoverRaw4 pt-2 border-top border-bottom border-dark pb-2 pe-2 text-hover" style="--bs-border-opacity: 0.2">
+              <div class="col-2 ps-3 position-relative">
+                <i class="sprite sprite-green_circle_icon green-circle-hover"></i>
+                <i class="sprite sprite-grey_circle_icon grey-circle-hover position-absolute"></i>
+                  <span class="badge position-absolute">4</span>
+              </div>
+              <div class="col-8">Reach Out</div>
+              <div class="col-2 pt-1 position-relative ps-1 border border-2">
+                <i class="sprite sprite-customers_icon icon-blue-hover"></i>
+                <i class="sprite sprite-greycustomer_icon position-absolute icon-grey-hover"></i>
+                  <span class="badge position-absolute top-10 start-50 text-secondary">36</span></div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-7 border-start border-top">
+            <div class="row analyticsRow ps-2 pt-3">
+              <h2 class="ps-4">Analytics</h2>
+            </div>
+            <div class="row activityRow ps-2 pb-2">
+              <div class="col-3 ps-4 pt-1 text-secondary">ACTIVITY</div>
+              <div class="col-9 text-end">
+                <div class="date">
+                  <select>
+                    <option>06/28/11 - 07/21/11</option>
+                    <option>09/10/99 - 12/10/99</option>
+                    <option>13/03/12 - 12/23/21</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row dashboardRow">
+              <img src="/assets/dashboard1.jpg" class="dashboardImg" alt="dashboard"> 
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 channelsRow">
+            <div class="row border-top">
+              <div class="col col-lg-12 col-md-12 col-sm-6 pb-4 border-dark border-start " style="--bs-border-opacity: 0.2">
+                <p class="text-secondary">Channels</p>
+                <img src="/assets/dashboard_channels.jpg" class="channelsImg"> 
+              </div>
+              <div class="col col-lg-12 col-md-12 col-sm-6 pb-4 border-dark border-start " style="--bs-border-opacity: 0.2">
+                <p class="text-secondary">Referrals</p>
+                <img src="/assets/dashboard_referrals.jpg" class="channelsImg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12 order-lg-1 order-sm-3 border-end">
+            <div class="row recRow ps-0 pb-3"> <h2 class="ps-0">Recommendations</h2></div>
+            <div class="row" style="--bs-border-opacity: 0.2">
+              <div class="col-2 pt-2"><i class="sprite sprite-document_icon"></i></div>
+              <div class="col-10 article1">
+                  <p class="mb-0 greyText text-secondary articletext">Article</p>
+                  <p class="ms-0 articletext">7 Steps to getting more Fans</p>
+              </div>
+            </div>
+            <div class="row border-top " style="--bs-border-opacity: 0.2">
+              <div class="col-2 pt-4"><i class="sprite sprite-document_icon"></i></div>
+              <div class="col-10 pt-3 article2">
+                  <p class="mb-0 greyText text-secondary articletext">Article</p>
+                  <p class="ms-0 articletext">Increase traction with more interaction</p>
+              </div>
+            </div>
+            <div class="row border-top " style="--bs-border-opacity: 0.2">
+              <div class="col-2 pt-4"><i class="sprite sprite-checklist_icon"></i></div>
+              <div class="col-10 pt-3 article3">
+                  <p class="mb-0 greyText text-secondary articletext">Checklist</p>
+                  <p class="ms-0 articletext">Creating a promotion</p>
+              </div>
+            </div>
+            <div class="row border-top " style="--bs-border-opacity: 0.2">
+              <div class="col-2 pt-4"><i class="sprite sprite-tips_icon"></i></div>
+              <div class="col-10 pt-3 article4">
+                  <p class="mb-0 greyText text-secondary articletext">Tip</p>
+                  <p class="ms-0 articletext">Share more</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 order-lg-2 order-sm-1">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 mt-4 ps-4 border-bottom pb-4">
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="" for="inlineCheckbox1"><p class="facebookIcon text-white ms-2">Facebook</p></label>
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="" for="inlineCheckbox2"><p class="twitterIcon text-white ms-2">Twitter</p></label>
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                  <label class="" for="inlineCheckbox3"><p class="foursquareIcon text-white ms-2">Foursquare</p></label>
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                  <label class="" for="inlineCheckbox4"><p class="googleIcon text-white ms-2">Google</p></label>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 d-md-flex mt-5 ms-3 pb-4 border-bottom">
+                <div class="flex-fill">
+                  <div class="card position-relative" style="width: 14rem;">
+                  <div class="avatarIcon"><i class="sprite sprite-avatar_icon"></i></div>
+                  <div class="leftribbon"><i class="sprite sprite-ribbon_left_icon"></i></div>
+                  <div class="rightribbon"><i class="sprite sprite-ribbon_right_icon"></i></div>
+                  <div class="textContacts mt-5">
+                    <p class="text-white text-center pt-2 mb-0" style="font-size: 1.4em; font-weight: 600;">75 CONTACTS</p>
+                    <p class="text-white text-center">4 INFLUENCERS</p>
+                  </div>
+                    <div class="card-body contactsDashboardImg">
+                      <img src="/assets/contacts_dashboard.jpg" class="card-img-bottom" alt="...">
+                    </div>
+                  </div>
+                </div>
+              <div class="flex-fill">
+                <div class="card position-relative" style="width: 14rem;">
+                  <div class="avatarIcon"><i class="sprite sprite-avatar_orange_icon"></i></div>
+                  <div class="leftribbon"><i class="sprite sprite-ribbon_left_icon"></i></div>
+                  <div class="rightribbon"><i class="sprite sprite-ribbon_right_icon"></i></div>
+                  <div class="textContacts mt-5"><p class="text-white text-center pt-2 mb-0" style="font-size: 1.4em; font-weight: 600;">17 CUSTOMERS</p>
+                    <p class="text-white text-center">0 INFLUENCERS</p></div>
+                    <div class="card-body contactsDashboardImg">
+                      <img src="/assets/customers_dashboard.jpg" class="card-img-bottom" alt="...">
+                    </div>
+                  </div>
+              </div>
+                </div>
+              </div>
+              <!-- <div class="col-md-6 col-sm-12 my-col">
+                contacts
+              </div> -->
+              <div class="col-12 mb-3 position-relative" style="--bs-border-opacity: 0.2">
+                <i class="sprite sprite-left_white_semicirtle position-absolute left-circle-icon"></i>
+                <i class="sprite sprite-left_orange_arrow position-absolute left-arrow-icon"></i>
+                <div class="container didYouKnowContainer">
+                  <div class="container p-4 didYouKnowText">
+                    <h6>DID YOU KNOW?</h6>
+                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
+                  </div>
+                </div>
+                <i class="sprite sprite-right_orange_arrow position-absolute right-arrow-icon"></i>
+                <i class="sprite sprite-right_white_semicircle position-absolute right-circle-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row images-row">
+          <div class="col-md-4 col-sm-12 img1-hover"> <img class="img-fluid rounded mx-auto pt-4 pb-4 img-1" src="/assets/picture1.jpg"></div>
+          <div class="col-md-4 col-sm-12 position-relative img2-hover">
+            <img class="img-fluid rounded mx-auto pt-4 pb-4 img-2" src="/assets/picture2.jpg">
+            <div class=" overlay">
+              <img class="img-fluid" src="/assets/overlay.png"> 
+            </div>
+            <div class="image-text text-white position-absolute">See what others are doing with us</div>
+          </div>
+          <div class="col-md-4 col-sm-12 img3-hover"><img class="img-fluid rounded mx-auto pt-4 pb-4 img-3" src="/assets/picture3.jpg"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="container-fluid mt-5">
+      <div class="row footer-row border-top text-secondary">
+        <div class="col-lg-3 col-sm-3 d-flex justify-content-end pt-3 pb-3 border-bottom" >
+          <div class="row">
+            <div class="col-4 border-end footer-text-hover">Tutorials</div>
+            <div class="col-4 border-end footer-text-hover">Support</div>
+            <div class="col-4 footer-text-hover">Blog</div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 border-start border-end pt-3 border-bottom">
+          <div class="row">
+            <div class="col-11"><span class="text-blue">Ariel Winter</span> likes your <span class="text-blue">Win A Cooper Sweepstakes</span> Promotion</div>
+            <div class="col-1"> <a href="#" class="gotopbtn"><i class="sprite sprite-arrow_blue_icon"></i></a></div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-sm-6 pt-2 border-end border-bottom">
+          <div class="row">
+            <div class="col-6"><i class="sprite sprite-profile_pic_icon"></i></div>
+            <div class="col-6 pt-2"><span class="text-blue">Logout</span></div>
+          </div>
+
+        </div>
+        <div class="col-lg-1 col-sm-3 pt-3 border-end border-bottom">
+          <div class="row">
+            <div class="col-3 position-relative footer-icon1"><img src="/icons/images/facebook_icon_active.png" class="img-fluid position-absolute icon-active"><i class="sprite sprite-twitte_icon  position-relative icon-inactive"></i></i></div>
+            <div class="col-3 position-relative footer-icon2"><img src="/icons/images/twitter_icon_active.png" class="img-fluid position-absolute icon-active"><i class="sprite sprite-facebook_icon position-relative icon-inactive"></i></div>
+            <div class="col-3 position-relative footer-icon3"><img src="/icons/images/vimeo_icon_active.png" class="img-fluid position-absolute icon-active"><i class="sprite sprite-vimeo_icon position-relative icon-inactive"></i></div>
+            <div class="col-3 position-relative footer-icon4"><img src="/icons/images/youtube_icon_active.png" class="img-fluid position-absolute icon-active"> <i class="sprite sprite-youtube_icon position-relative icon-inactive"></i></div>
+          </div>
+        </div>
+        <div class="col-1 pt-3 border-end"></div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

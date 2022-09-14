@@ -1,0 +1,74 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.bgcustomclr {
+    background-color: black;
+}
+section {
+    width: 100%;
+    min-height: 100vh;
+}
+.pictures {
+    min-height: 30vh;
+}
+.video {
+    min-height: 20vh;
+    max-height: 90vh;
+}
+.home {
+    background-image: url(/assets/homepicnotext.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.about {
+    background-color: black;
+    max-height: 190vh;
+    min-height: 80vh;
+}
+.pictures {
+    background-color: black;
+}
+.video {
+    background-color: black;
+}
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.video-wrapper iframe {
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    left: 15%;
+}
+p {
+    margin-bottom: 0;
+}
+h1 {
+    margin-bottom: 0;
+}
+.book {
+    background-color: black;
+    min-height: 70vh;
+}
+
+.my-link-color {
+    color: grey
+}
+
+.btn-custom {
+    color: grey;
+}
+
+.front-text {
+    position: absolute;
+    left: 21%;
+    top: 40%;
+    font-size: 10vw;
+}

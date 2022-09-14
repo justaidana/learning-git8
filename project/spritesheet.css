@@ -1,0 +1,299 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Help_icon {
+    width: 25px;
+    height: 27px;
+    background-position: -5px -5px;
+}
+
+.sprite-analytics_icon {
+    width: 60px;
+    height: 76px;
+    background-position: -40px -5px;
+}
+
+.sprite-analytics_icon_green {
+    width: 56px;
+    height: 56px;
+    background-position: -110px -5px;
+}
+
+.sprite-arrow_blue_icon {
+    width: 14px;
+    height: 13px;
+    background-position: -176px -5px;
+}
+
+.sprite-arrow_halfcircle_left {
+    width: 23px;
+    height: 50px;
+    background-position: -200px -5px;
+}
+
+.sprite-arrow_halfcircle_right {
+    width: 25px;
+    height: 50px;
+    background-position: -233px -5px;
+}
+
+.sprite-avatar_icon {
+    width: 77px;
+    height: 80px;
+    background-position: -176px -65px;
+}
+
+.sprite-avatar_orange_icon {
+    width: 78px;
+    height: 68px;
+    background-position: -5px -155px;
+}
+
+.sprite-box_icon {
+    width: 18px;
+    height: 18px;
+    background-position: -268px -5px;
+}
+
+.sprite-check_icon {
+    width: 22px;
+    height: 19px;
+    background-position: -296px -5px;
+}
+
+.sprite-checklist_icon {
+    width: 24px;
+    height: 34px;
+    background-position: -268px -34px;
+}
+
+.sprite-customers_icon {
+    width: 20px;
+    height: 21px;
+    background-position: -302px -34px;
+}
+
+.sprite-document_icon {
+    width: 24px;
+    height: 40px;
+    background-position: -5px -65px;
+}
+
+.sprite-facebook_icon {
+    width: 18px;
+    height: 16px;
+    background-position: -302px -65px;
+}
+
+.sprite-file_icon_green {
+    width: 44px;
+    height: 49px;
+    background-position: -110px -78px;
+}
+
+.sprite-green_circle_icon {
+    width: 26px;
+    height: 26px;
+    background-position: -39px -91px;
+}
+
+.sprite-grey_circle_icon {
+    width: 26px;
+    height: 24px;
+    background-position: -263px -91px;
+}
+
+.sprite-greycustomer_icon {
+    width: 27px;
+    height: 22px;
+    background-position: -299px -91px;
+}
+
+.sprite-greysettiings_icon {
+    width: 23px;
+    height: 22px;
+    background-position: -5px -123px;
+}
+
+.sprite-icon_help_black {
+    width: 20px;
+    height: 20px;
+    background-position: -75px -123px;
+}
+
+.sprite-icon_settings_black {
+    width: 20px;
+    height: 20px;
+    background-position: -299px -123px;
+}
+
+.sprite-left_orange_arrow {
+    width: 12px;
+    height: 18px;
+    background-position: -176px -34px;
+}
+
+.sprite-left_white_semicirtle {
+    width: 23px;
+    height: 55px;
+    background-position: -93px -153px;
+}
+
+.sprite-leftarrow_icon {
+    width: 23px;
+    height: 22px;
+    background-position: -126px -153px;
+}
+
+.sprite-marker_icon {
+    width: 33px;
+    height: 10px;
+    background-position: -263px -153px;
+}
+
+.sprite-messages_icon {
+    width: 60px;
+    height: 72px;
+    background-position: -159px -173px;
+}
+
+.sprite-messages_icon_green {
+    width: 56px;
+    height: 47px;
+    background-position: -229px -173px;
+}
+
+.sprite-page_icon {
+    width: 52px;
+    height: 76px;
+    background-position: -93px -230px;
+}
+
+.sprite-people_icon {
+    width: 64px;
+    height: 76px;
+    background-position: -229px -230px;
+}
+
+.sprite-people_icon_green {
+    width: 60px;
+    height: 41px;
+    background-position: -332px -5px;
+}
+
+.sprite-price_icon {
+    width: 57px;
+    height: 72px;
+    background-position: -336px -56px;
+}
+
+.sprite-price_icon_green {
+    width: 50px;
+    height: 51px;
+    background-position: -329px -138px;
+}
+
+.sprite-profile_pic_icon {
+    width: 37px;
+    height: 37px;
+    background-position: -303px -199px;
+}
+
+.sprite-ribbon_left_icon {
+    width: 17px;
+    height: 40px;
+    background-position: -350px -199px;
+}
+
+.sprite-ribbon_right_icon {
+    width: 17px;
+    height: 40px;
+    background-position: -377px -199px;
+}
+
+.sprite-right_orange_arrow {
+    width: 12px;
+    height: 21px;
+    background-position: -389px -138px;
+}
+
+.sprite-right_white_semicircle {
+    width: 23px;
+    height: 50px;
+    background-position: -5px -249px;
+}
+
+.sprite-rightarrow_icon {
+    width: 24px;
+    height: 22px;
+    background-position: -38px -249px;
+}
+
+.sprite-search_icon {
+    width: 32px;
+    height: 32px;
+    background-position: -303px -249px;
+}
+
+.sprite-search_icon_blue {
+    width: 35px;
+    height: 33px;
+    background-position: -345px -249px;
+}
+
+.sprite-settings_icon {
+    width: 28px;
+    height: 30px;
+    background-position: -38px -292px;
+}
+
+.sprite-shadow {
+    width: 52px;
+    height: 9px;
+    background-position: -155px -292px;
+}
+
+.sprite-statistics_icon {
+    width: 55px;
+    height: 76px;
+    background-position: -303px -292px;
+}
+
+.sprite-statistics_icon_green {
+    width: 40px;
+    height: 49px;
+    background-position: -403px -5px;
+}
+
+.sprite-tips_icon {
+    width: 19px;
+    height: 38px;
+    background-position: -403px -64px;
+}
+
+.sprite-twitte_icon {
+    width: 15px;
+    height: 13px;
+    background-position: -432px -64px;
+}
+
+.sprite-vimeo_icon {
+    width: 15px;
+    height: 16px;
+    background-position: -432px -87px;
+}
+
+.sprite-white_checkbox_icon {
+    width: 19px;
+    height: 18px;
+    background-position: -411px -113px;
+}
+
+.sprite-youtube_icon {
+    width: 16px;
+    height: 16px;
+    background-position: -411px -141px;
+}
