@@ -1,0 +1,10 @@
+#tableBaseball tr td {
+    border: 1px solid black;
+}
+#tableBaseball th {
+    border: 1px solid black;
+}
+
+.bold {
+    font-weight: bold;
+}
