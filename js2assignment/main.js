@@ -13,7 +13,7 @@ var table = '<table><tr><th> Teams</th><th>Wins</th><th>Losses</th></tr>';
         if (wins[j] >= teamHighWins) {
             teamHighWins = wins[j];
             teamLeader = j;
-        } 
+        }     
         
        
     } 
